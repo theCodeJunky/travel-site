@@ -1,0 +1,15 @@
+$mainBlack: #000000;
+
+body {
+    background-color: $mainBlack;
+    padding: 26px;
+    margin: 10px;
+    columns: 300px 2;
+}
+
+.box {
+    a {
+        display: block;
+        padding: 10px;
+    }
+}
