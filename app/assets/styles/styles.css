@@ -1,15 +1,7 @@
-$mainBlack: #000000;
+@import "normalize.css";
+@import "base/_global";
+@import "base/_variables";
+@import "modules/_large-hero";
+@import "modules/_btn";
 
-body {
-    background-color: $mainBlack;
-    padding: 26px;
-    margin: 10px;
-    columns: 300px 2;
-}
 
-.box {
-    a {
-        display: block;
-        padding: 10px;
-    }
-}
