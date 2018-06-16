@@ -1,9 +1,17 @@
+
 {{#shapes}}
-    /* Test Comment */
+    {{#first}}
+    /* No edit: modules/_sprite.css is an auto generated file automatically by Gulp. */
+    /* To edit: please see gulp/tempates/sprite */
+
+    .icon {
+        background-image: url("/assets/images/sprites/{{{sprite}}}");
+    }
+    {{/first}}
+
     .icon__{{base}} {
         width: {{width.outer}}px;
         height: {{height.outer}}px;
-        background-image: url("/temp/sprite/css/{{{sprite}}}");
         background-position: {{position.relative.xy}};
     }
 {{/shapes}}
